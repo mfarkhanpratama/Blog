@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.Sign_in {
+  background-color: #1f8a70;
+  color: white;
+  padding: 3px 12px;
+  border-radius: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  margin: 50px 0px;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.img_desc {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 11px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 30vw;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 60px;
+  align-self: flex-start;
+}
+
+.line {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line_bar {
+  border-top: 1px solid black;
+}
+
+.sidebar__p {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.li__sidebar {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.socialbar {
+  width: 30vw;
+  order: 3;
+}
+
+.content {
+  display: flex;
+}
+
+.img_container {
+  margin: 50px 0px;
+}
+
+.main__content {
+  width: 40vw;
+  order: 2;
+}
+
+p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.normal__paragraph {
+  font-weight: 300;
+}
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #393e46;
+  margin-top: 80px;
+}
+
+.topic {
+  font-size: 30px;
+  padding: 10px 0px;
+  font-weight: 500;
+  margin-top: 20px;
+}
