@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: poppins;
+  padding: 0;
+  margin: 0;
+}
+
+.login-body {
+  background-image: linear-gradient(
+    180deg,
+    #f2f6ff 0,
+    #f2f6ff 523px,
+    #fff 523px,
+    #fff 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  height: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 4%) 0px 0px 0px 1px, rgb(0 0 0 / 4%) 0px 2px 8px,
+    rgb(99 116 134 / 3%) 0px 5px 8px;
+
+  padding: 40px 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: white;
+  border: 1px solid rgb(197, 206, 214);
+  border-radius: 3px;
+  inset: 0px;
+  box-shadow: rgb(229 233 236 / 0%) 0px 0px 0px 0px;
+  transition: box-shadow 100ms ease 0s, background-color 100ms ease 0s,
+    border-color 100ms ease 0s;
+}
