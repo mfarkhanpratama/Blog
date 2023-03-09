@@ -11,6 +11,7 @@
     />
 
     <link rel="stylesheet" href="./css/loginPage.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
 
     <title>Login Page</title>
   </head>
@@ -18,9 +19,15 @@
     <div class="container">
       <div class="form-container login-container">
         <form action="#">
-          <h1>Login Here.</h1>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
+          <h1 class="title-login">Login Here.</h1>
+          <div class="input-box">
+            <label for="">email</label>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="input-box">
+            <label for="">password</label>
+            <input type="password" placeholder="password" />
+          </div>
           <div class="content">
             <input type="checkbox" name="checkbox" id="checkbox" />
             <label>Remember Me</label>
@@ -28,12 +35,12 @@
           <div class="pass-link">
             <a href="#">Forgot password?</a>
           </div>
-          <button>Login</button>
+          <button class="btn-login">Login</button>
           <span>or Login with</span>
           <div class="social-container">
-            <a href="" class="social"><i class="google-fill"></i></a>
-            <a href="" class="social"><i class="facebook-fill"></i></a>
-            <a href="" class="social"><i class="linkedin-fill"></i></a>
+            <a href="" class="social"><i class="lni lni-facebook-fill"></i></a>
+            <a href="" class="social"><i class="lni lni-linkedin-original"></i></a>
+            <a href="" class="social"><i class="lni lni-google"></i></i></a>
           </div>
         </form>
       </div>

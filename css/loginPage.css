@@ -29,8 +29,9 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 40vw;
-  height: 600px;
+  height: 800px;
   background-color: white;
   border-radius: 8px;
   box-shadow: rgb(0 0 0 / 4%) 0px 0px 0px 1px, rgb(0 0 0 / 4%) 0px 2px 8px,
@@ -39,9 +40,16 @@ html {
   padding: 40px 60px;
 }
 
+.form-container {
+  width: 100%;
+}
+
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 input {
@@ -52,4 +60,81 @@ input {
   box-shadow: rgb(229 233 236 / 0%) 0px 0px 0px 0px;
   transition: box-shadow 100ms ease 0s, background-color 100ms ease 0s,
     border-color 100ms ease 0s;
+  height: 35px;
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+.title-login {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0px 10px;
+}
+
+.btn-login {
+  height: 35px;
+  background-color: #1292ee;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-container a:hover {
+  border: 1px solid #1292ee;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #1292ee;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#checkbox {
+  margin-right: 7px;
+}
+
+.vertical-input-box {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.child-vertical-box {
+  display: flex;
+  flex-direction: column;
 }
