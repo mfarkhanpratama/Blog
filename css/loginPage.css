@@ -40,6 +40,10 @@ html {
   padding: 40px 60px;
 }
 
+.ilustrasi {
+  background-color: transparent;
+}
+
 .form-container {
   width: 100%;
 }

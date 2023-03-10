@@ -18,15 +18,15 @@
   <body class="login-body">
     <div class="container">
       <div class="form-container login-container">
-        <form action="#">
+        <form action="#" id="form">
           <h1 class="title-login">Login Here.</h1>
           <div class="input-box">
-            <label for="">email</label>
-            <input type="email" placeholder="email" />
+            <label for="email">email</label>
+            <input type="email" placeholder="email" id="inputEmail" name="email"/>
           </div>
           <div class="input-box">
-            <label for="">password</label>
-            <input type="password" placeholder="password" />
+            <label for="password">password</label>
+            <input type="password" placeholder="password" id="inputPassword" name="password"/>
           </div>
           <div class="content">
             <input type="checkbox" name="checkbox" id="checkbox" />
@@ -35,7 +35,7 @@
           <div class="pass-link">
             <a href="#">Forgot password?</a>
           </div>
-          <button class="btn-login">Login</button>
+          <button class="btn-login"  id="loginButton" type="button">Login</button>
           <span>or Login with</span>
           <div class="social-container">
             <a href="" class="social"><i class="lni lni-facebook-fill"></i></a>
@@ -45,5 +45,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/login.js"></script>
   </body>
 </html>
