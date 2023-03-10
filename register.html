@@ -23,29 +23,30 @@
           <div class="vertical-input-box">
             <div class="child-vertical-box">
                 <label for="">First Name</label>
-                <input type="text" placeholder="Farkhan" />
+                <input type="text" placeholder="Farkhan" name="firstName"/>
             </div>
                 <div class="child-vertical-box">
                     <label for="">Last Name</label>
-                    <input type="text" placeholder="Pratama" />
+                    <input type="text" placeholder="Pratama" name="lastName"/>
                 </div>
           </div>
           <div class="input-box">
-            <label for="">email</label>
-            <input type="email" placeholder="email" />
+            <label for="username">username</label>
+            <input type="text" placeholder="farkhan312" name="username"/>
           </div>
           <div class="input-box">
-            <label for="">password</label>
-            <input type="password" placeholder="password" />
+            <label for="email">email</label>
+            <input type="email" placeholder="email" name="email"/>
+          </div>
+          <div class="input-box">
+            <label for="password">password</label>
+            <input type="password" placeholder="password" name="password"/>
           </div>
           <div class="content">
             <input type="checkbox" name="checkbox" id="checkbox" />
-            <label>Remember Me</label>
+            <label>I agree with <span class="bold-text">Terms and Conditions</span> and the <span class="bold-text">Privacy Policy</span></label>
           </div>
-          <div class="pass-link">
-            <a href="#">Forgot password?</a>
-          </div>
-          <button class="btn-login">Register</button>
+          <button class="btn-login" id="submitBtn" type="button">Register</button>
           <span>or Register with</span>
           <div class="social-container">
             <a href="" class="social"><i class="lni lni-facebook-fill"></i></a>
@@ -55,6 +56,6 @@
         </form>
       </div>
     </div>
-    <script src="register.html"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>

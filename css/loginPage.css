@@ -44,6 +44,10 @@ html {
   background-color: transparent;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 .form-container {
   width: 100%;
 }

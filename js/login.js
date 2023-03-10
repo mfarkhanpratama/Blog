@@ -1,4 +1,4 @@
-const submitBtn = document.getElementById("loginButton");
+const submitBtn = document.getElementById("submitBtn");
 
 submitBtn.addEventListener("click", () => {
   // membuat objek FormData untuk mengambil data dari form
